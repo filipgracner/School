@@ -4,12 +4,11 @@ Napiši program, ki izpiše prvih 20 členov zaporedja."""
 
 a = 0
 b = 1
+c = 1
 
-print(b)
-
-for i in range(19):
-    c = a + b
+for i in range(20):
     print(c)
+    c = a + b
     a = b
     b = c
 
